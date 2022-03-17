@@ -15,6 +15,25 @@ body{
     --button_grayLight: rgba(217, 218, 220, 1);
 }
 
+.text_colorBlue{
+    color: var(--text_azul);
+}
+
+.text_colorGray{
+    color: var(--text_gray);
+}
+
+.button_blue{
+    background-color: var(--bg_button_blue);
+}
+
+.button_orange{
+    background-color: var(--button_orange);
+}
+
+.bg_nuoveUscite{
+    background-color: var(--bg_gray_dark);
+}
 /* Header */
 
 .sony{
@@ -24,35 +43,25 @@ body{
 
 /* Inizio main */
 
+
+
+
+.itTakesTwo_bg{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 740px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
 .height_jumbo{
     height: 704px;
     background-color: black;
 }
 
-.height_card{
-    height: 191px;
-    background-color: white;
-}
 
-.height_ps5{
-    height: 1071px;
-    background-color: gray;
-}
-
-.height_periferiche{
-    height: 289px;
-    background-color: white;
-}
-
-.height_itTakesTwo{
-    height: 740px;
-    background-color: orange;
-}
-
-.height_games{
-    height: 860px;
-    background-color: black;
-}
 
 .height_ps4{
     height: 869px;
@@ -79,9 +88,21 @@ body{
     background-color: white;
 }
 
+
+.radius_card{
+    border-radius: 20px;
+}
+
+/* .big_container{
+    width: 98%;
+    background-color: red;
+    margin: 0 auto;
+} */
+
 /* inizio footer */
 
 .height_footer{
     height: 658px;
     background-color: blue;
 }
+
