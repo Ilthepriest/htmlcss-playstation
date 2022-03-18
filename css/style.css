@@ -13,6 +13,7 @@ body{
     --bg_playPlus: rgba(190, 188, 187, 1);
     --button_orange: rgba(204, 60, 15, 1);
     --button_grayLight: rgba(217, 218, 220, 1);
+    --bg_psNow: rgba(22, 28, 59, 1);
 }
 
 .text_colorBlue{
@@ -31,8 +32,24 @@ body{
     background-color: var(--button_orange);
 }
 
+.button_gray{
+    background-color: var(--button_grayLight);
+}
+
 .bg_nuoveUscite{
     background-color: var(--bg_gray_dark);
+}
+
+.bg_psPlus{
+    background-color: var(--bg_playPlus);
+}
+
+.bg_psNow{
+    background-color: var(--bg_psNow);
+}
+
+.bg_footer{
+    background-color: var(--bg_footer);
 }
 /* Header */
 
@@ -43,49 +60,18 @@ body{
 
 /* Inizio main */
 
-
-
-
 .itTakesTwo_bg{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    height: 740px;
+    width: 100%;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
-
-
-.height_jumbo{
-    height: 704px;
-    background-color: black;
-}
-
-
-
-.height_ps4{
-    height: 869px;
-    background-color: white;
-}
-
-.height_psPlus{
-    height: 481px;
-    background-color: gray;
-}
-
-.height_psStore{
-    height: 810px;
-    background-color: white;
-}
-
-.height_psNow{
-    height: 552px;
-    background-color: blue;
-}
-
-.height_social{
-    height: 478px;
-    background-color: white;
+.jumbo_bg{
+    background-image: url(../img/jumbo-bg.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover; 
 }
 
 
@@ -93,16 +79,7 @@ body{
     border-radius: 20px;
 }
 
-/* .big_container{
-    width: 98%;
-    background-color: red;
-    margin: 0 auto;
-} */
 
 /* inizio footer */
 
-.height_footer{
-    height: 658px;
-    background-color: blue;
-}
 
