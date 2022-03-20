@@ -1,3 +1,5 @@
+/* Commond */
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,17 +26,32 @@ body{
     color: var(--text_gray);
 }
 
+/* Button */
+
+.button_black{
+    background-color: black;
+    border: black;
+    
+}
+
 .button_blue{
     background-color: var(--bg_button_blue);
+    border: var(--bg_button_blue);
+    
 }
 
 .button_orange{
     background-color: var(--button_orange);
+    border: var(--button_orange);
+    
 }
 
 .button_gray{
     background-color: var(--button_grayLight);
+    border: var(--button_grayLight);
 }
+
+/* Background */
 
 .bg_nuoveUscite{
     background-color: var(--bg_gray_dark);
@@ -58,11 +75,19 @@ body{
     height: 43px;
 }
 
+ul .cerchio li{
+    list-style-type: disc;
+    color: var(--text_azul);
+    margin-left: 20px;
+    text-decoration: none;
+}
+
 /* Inizio main */
 
 .itTakesTwo_bg{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     width: 100%;
+    height: 740px;
     background-position: center;
     background-size: cover;  
 }
@@ -70,16 +95,90 @@ body{
 .jumbo_bg{
     background-image: url(../img/jumbo-bg.png);
     width: 100%;
+    height: 740px;
     background-position: center;
     background-size: cover; 
 }
-
 
 .radius_card{
     border-radius: 20px;
 }
 
+/* Arrow up and down */
 
-/* inizio footer */
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+  }
 
+.dropdown-toggle::after {
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107";
+  }
+  
+.dropdown-toggle.show::after {
+    content: "\f106";
+  } 
+
+/* Effetto bounce card */
+
+.box {
+    transition: all ease 1.2s;
+}
+.bounce:hover {
+    transform: translateY(-50px);
+}
+
+.col-4:hover .size{
+    border-bottom: 2px solid var(--text_azul);   
+}
+
+.col-4:hover.border_bottom_card{
+    opacity: 0.5;
+}
+
+.size{
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+}
+
+
+/* Effetto hover card menu */
+
+.ombra:hover{
+    box-shadow: inset 0px -1px 14px 5px #F2F2F2,0px 0px 11px 6px #969696;
+    border-radius: 5px;
+}
+
+/* Effetti hover bottoni */
+
+.button_orange:hover{
+    color: white;
+    background-color: var(--button_orange);
+    border: 2px solid black;
+    box-shadow: 0 0 0 0.25rem rgb(204 60 15 / 50%);
+    
+}
+
+.button_black:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 100%);
+}
+
+.button_blue:hover{
+    color: white;
+    background-color: var(--bg_button_blue);
+    border: 2px solid white;
+    box-shadow: 0 0 0 0.25rem rgb(45 100 230 / 50%);
+}
+
+.button_gray:hover{
+    color: var(--text_azul);
+    background-color: var(--button_grayLight);
+    box-shadow: 0 0 0 0.25rem rgb(217 218 220 / 50%);
+}
 
